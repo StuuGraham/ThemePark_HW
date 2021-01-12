@@ -24,6 +24,10 @@ public class Visitor {
         return height;
     }
 
+    public void setHeight(double newHeight) {
+        this.height = newHeight;
+    }
+
     public double getMoney() {
         return money;
     }
