@@ -16,6 +16,10 @@ public class Visitor {
         return age;
     }
 
+    public void setAge(int newAge){
+        this.age = newAge;
+    }
+
     public double getHeight() {
         return height;
     }
